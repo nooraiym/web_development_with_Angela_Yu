@@ -1,0 +1,210 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.7rem 0 0 0.5rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 34.94rem;
+}
+
+.company-name {
+  color: #0A0047;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+}
+.company-name span {
+  color: #A1D24C;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1.88rem;
+}
+
+.menu > button {
+  width: 4.75rem;
+  height: 2.125rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #1465FA;
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.menu-bar {
+  display: flex;
+  gap: 1.88rem;
+  padding: 0;
+}
+.menu-bar li {
+  list-style: none;
+}
+.menu-bar li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  margin: 5.5rem 0 4.31rem;
+  flex-direction: column;
+}
+
+h1 {
+  width: 68.75rem;
+  margin: 0;
+  color: #000;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.parameters-container {
+  display: inline-flex;
+  justify-content: center;
+  gap: 4.38rem;
+  margin-bottom: 3.6rem;
+}
+
+.parameter {
+  display: inline-flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.parameter img {
+  width: 1.7rem;
+}
+.parameter p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+#special {
+  color: #000;
+  font-family: "Dancing Script", fantasy;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  transform: rotate(-10.057deg);
+  position: absolute;
+  top: 26.78rem;
+  left: 36.5rem;
+}
+
+.special_arrow {
+  position: absolute;
+  top: 28.7rem;
+  left: 40.89rem;
+}
+
+.choose_form {
+  display: flex;
+  gap: 1rem;
+}
+.choose_form p {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 3.13rem;
+  justify-content: center;
+}
+
+.pricing-plan {
+  border-radius: 0.25rem;
+  border: 1px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.3490196078);
+  padding: 2.25rem 2.4rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.88rem;
+}
+.pricing-plan:hover {
+  background-color: #2C3140;
+  box-shadow: 2px 2px 10px #747474;
+  border: 1px solid #747474;
+}
+.pricing-plan hr {
+  width: 6.25rem;
+  height: 0.0625rem;
+  background: #DDD;
+  border: none;
+}
+
+.plan-title {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.plan-price {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 0.31rem;
+}
+
+.plan-period {
+  color: #747474;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 1.44rem;
+}
+
+.plan-button {
+  width: 13.9375rem;
+  height: 3.25rem;
+  border-radius: 0.1875rem;
+  border: 3px solid #1465FA;
+  background-color: #FFF;
+  color: #1465FA;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.plan-features {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.plan-features li {
+  list-style: none;
+  color: #747474;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.81rem;
+}
+
+.pricing-plan:hover > * {
+  color: #FFF;
+  transition: 0.5s ease;
+}/*# sourceMappingURL=input.css.map */

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandrian Project</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container {
+            width: 760px;
+            height: 760px;
+            display: grid;
+            gap: 10px;
+            border: 10px solid black;
+            background-color: #000;
+            grid-template: repeat(7, 100px) / repeat(7, 100px);
+        }
+
+        .item {
+            background-color: #F0F1EC;
+        }
+
+        .red {
+            background-color: #d20005;
+        }
+
+        .red_first {
+            grid-row: span 3;
+            grid-column: span 2;
+        }
+
+        .blue {
+            background-color: #1b3c82;
+        }
+
+        .blue_first {
+            grid-row: span 3;
+        }
+
+        .back1 {
+            grid-column: span 2;
+        }
+
+        .red_second {
+            grid-row: span 2;
+        }
+
+        .back2 {
+            grid-row: span 2;
+        }
+
+        .back3 {
+            grid-row: span 3;
+        }
+
+        .back4 {
+            grid-row: span 3;
+            grid-column: span 2;
+        }
+
+        .blue_second {
+            grid-row: span 2;
+        }
+
+        .back5 {
+            grid-row: span 2;
+            grid-column: span 3;
+        }
+
+        .back6 {
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+
+        .back7 {
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="grid-container">
+            <div class="red red_first"></div>
+            <div class="blue blue_first"></div>
+            <div class="blue"></div>
+            <div class="item back1"></div>
+            <div class="red red_second"></div>
+
+            <div class="item back2"></div>
+            <div class="item back3"></div>
+            <div class="item"></div>
+
+            <div class="item back4"></div>
+
+            <div class="item back4"></div>
+            <div class="item"></div>
+            <div class="blue blue_second"></div>
+
+            <div class="red"></div>
+            <div class="item"></div>
+
+            <div class="item back5"></div>
+            <div class="item back6"></div>
+
+            <div class="item back7"></div>
+        </div>
+    </div>
+</body>
+</html>
